@@ -159,10 +159,10 @@ const App = () => {
         </div>
 
         <div className="bio">
-          I'm Forre$t and I work as a Solidity developer.
+          I'm Forrest and I work as a solidity developer. This is a website where anyone can send me a message saved on Ethereum network. Connect you wallet and leave me a message! (Rinkeby testnet)
         </div>
 
-        
+
 
 
         {
@@ -190,7 +190,7 @@ const App = () => {
         */}
         {!currentAccount && (
           <button className="greetButton" onClick={connectWallet}>
-            Connect your wallet to leave a message
+            Connect your wallet
           </button>
         )}
 
